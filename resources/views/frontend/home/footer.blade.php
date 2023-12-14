@@ -11,7 +11,7 @@
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget about-widget">
                                 <div class="widget-title">
-                                    <h3>About</h3>
+                                    <h3>About Us</h3>
                                 </div>
                                 <div class="text">
                                     <p>Lorem ipsum dolor amet consetetur adi pisicing elit sed eiusm tempor in cididunt ut labore dolore magna aliqua enim ad minim venitam</p>
@@ -62,8 +62,8 @@
                                 <div class="widget-content">
     <ul class="info-list clearfix">
         <li><i class="fas fa-map-marker-alt"></i>{{ $setting->company_address }}</li>
-        <li><i class="fas fa-microphone"></i><a href="tel:23055873407">+{{ $setting->support_phone }}</a></li>
-        <li><i class="fas fa-envelope"></i><a href="mailto:info@example.com">{{ $setting->email }}</a></li>
+        <li><i class="fas fa-microphone"></i><a href="tel:+8801312542818">+{{ $setting->support_phone }}</a></li>
+        <li><i class="fas fa-envelope"></i><a href="somali:info@example.com">{{ $setting->email }}</a></li>
     </ul>
                                 </div>
                             </div>
